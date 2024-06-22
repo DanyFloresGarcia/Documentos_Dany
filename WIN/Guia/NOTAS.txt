@@ -1,0 +1,225 @@
+Ambiente de node-red desarrollo 
+http://10.1.4.28:1910/acceso/#flow/ea9b1b59da508d80
+
+APP MI WIN
+
+
+https://docs.google.com/spreadsheets/d/1ylRwHM6vvqnRRV6dwkIFAS5gyHSQbT2D/edit?pli=1#gid=1323300956
+
+CAMBIAR BD 
+Entrar a shelling
+10.1.4.28
+ruta: /opt/docker/nodered-POD-comercialpostventawinnegocios
+ 
+ruta 1927: /opt/docker/nodered-POD-winempresas-v4
+
+ruta win negocio: /opt/docker/nodered-POD-instalaciones-2
+
+usuario node-red
+admin Peru
+node1
+
+45185204
+
+reiniciar  docker
+docker-compose down && docker-compose up -d
+
+reiniciar docker de bd 
+docker ps
+docker restart 5becdb579a93
+docker restart b7eaf6a0ea41
+
+
+
+cambiar las 4 bds
+
+cambiar bd de cliente auth 
+/var/www/html/Win.ClientAuthentication.WIN
+
+
+10.1.4.23 servicios jboss desarrrollo
+epinedac
+Peru123.
+
+4qnO.$4b3$
+
+
+http://10.1.2.99/testgit/Optical.Intranet/APP/FUENTES/Optical.Intranet/web/crm
+CONTRA INTRANET 
+MBOHORQUEZ
+
+Opti123456$
+---------------------------------
+dflores.waytech\OPTICAL-IP
+Peru2024$
+
+dflores.waytech
+
+
+GIT
+dflores.waytech
+N0v13mbr3.123
+-----------AMBIENTES DE PRUEBA
+http://10.1.2.107/crm DESARROLLO
+http://10.1.2.109/crm QA
+----------------------------------------
+dany.flores@waytech.pe
+DFGServer181296
+=====BASE DE DATOS CREDENCIALES
+
+CREDENCIALES SERVER : 10.1.2.106
+USER: PE_OPTICAL_ERP
+CONTRASENHA:   Optical123+
+
+
+CREDENCIALES JBOSS
+dflores181296
+DFGServer181296$
+----------------
+\\10.1.2.112\sistemas\Capacitaciones TI\Capacitacion Sistemas WIN y ON\ON
+--------------------
+
+
+10.1.2.107 // REMOTO / PARA PUBLICAR EN DESARROLLO
+
+
+\\10.1.2.99 Servidor de aplicaciones en php
+\\10.1.2.112 Publica
+
+\\10.1.2.112\ti_software_factory\Capacitacion WS
+
+10.1.2.39
+sa
+
+USUARIO: mbohorquez
+pwd: 4qnO.$4b3$
+pwd2 : opti123
+
+AG San Gabriel  L2L
+AG San Gabriel  L2L
+
+Servicios : http://10.1.2.103:9990/
+
+epinedac
+Peru123.
+
+
+https://app.optical.pe/crm
+
+
+	--ssolano es jefe 
+gaguilar
+ssolano   --ichumo  Autorizacion 
+mmalone   
+nrodriguez
+ebarriga
+
+
+vticona
+gaguilar -- Autoriza Autorizacion a su Jefe 
+ichumo  
+mmalone   
+nrodriguez
+ebarriga
+
+cibarra
+
+vticona
+ssolano
+ichumo
+mmalone
+nrodriguez
+ebarriga
+
+
+
+select distinct o.name from sysobjects o
+inner join syscomments c on o.id = c.id
+where o.xtype = 'P'
+and c.text like '%CRM_REUNION%'
+order by o.name asc
+
+
+Las condicionantes que no generan respuesta automática en factibilidad
+
+	- Cuando se REENVIA
+	- Cuando es Fibra Oscura
+	- Cuando es Habilitación de Equipo
+	- Wireless y Satelital
+
+
+mas6948171
+
+
+vticona@optical.pe
+ccamacho@optical.pe
+http://10.1.2.167/Optical/Optical.Intranet
+Cc4m4ch0.123%
+
+
+
+SELECT 
+ROUTINE_NAME AS NAME
+,ROUTINE_DEFINITION
+,*
+FROM 
+INFORMATION_SCHEMA.ROUTINES
+WHERE 
+ROUTINE_DEFINITION LIKE '%CLIV_TERRITORIO%'
+and 
+ROUTINE_DEFINITION LIKE '%INSERT INTO%'
+AND ROUTINE_TYPE ='PROCEDURE'
+ORDER BY
+LAST_ALTERED DESC
+
+postgresql
+                      
+   SELECT 
+    routine_name,
+    routine_definition,
+    routine_type
+FROM 
+    information_schema.routines
+WHERE 
+    routine_definition LIKE '%%'
+    AND routine_type = 'FUNCTION'
+ORDER BY
+    routine_name;
+
+
+select CONNECTIONPROPERTY('net_transport') AS net_transport, 
+CONNECTIONPROPERTY('protocol_type') AS protocol_type, 
+CONNECTIONPROPERTY('auth_scheme') AS auth_scheme, 
+CONNECTIONPROPERTY('local_net_address') AS local_net_address, 
+CONNECTIONPROPERTY('local_tcp_port') AS local_tcp_port, 
+CONNECTIONPROPERTY('client_net_address') AS client_net_address
+
+
+DESARROLLO FLOW
+
+http://10.1.2.67:8080/auth
+desarrollo-on
+VLhGUZWwzg
+dev-on
+T$e5q&5u&Y5yN8P
+
+SistemasPHP-Dev
+10.1.2.122 (SSJ v2)
+ruta: /var/www/flow.optical.pe/www/
+http://10.1.2.122/
+mbohorquez
+opti123+
+
+RUTA PARA PORTAL
+\\10.1.2.112\ti_software_factory\Portal
+
+CREDENCIALES
+
+
+OPTICORE
+/var/www/html 
+19
+
+CODIGO PARA SABER TODO SOBRE UNA TABLA 
+
+EXEC sp_helpconstraint 'CRM.CRM_MODELACION_DETALLE';

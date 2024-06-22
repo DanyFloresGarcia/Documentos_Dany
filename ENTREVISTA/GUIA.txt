@@ -1,0 +1,95 @@
+CUALES SON LAS DIFERE ENTRE UNA CLASE Y UNA INTERFAZ?
+
+CLASE: ES UNA PLANTILLA O MODEL PARA CREAR LOS DIFERENTES OBJECTOS
+DENTRO DE ELLA TBM CONTIENE METODOS PROPIEDADES CONSTRUCTOR
+
+INTERFAZ: ES UN CONTRATO QUE SE UTILIZA PARA GARANTIZAR METDOSO
+Y PROPIEDADS, SE USA PARA IMPLEMNTAR PATRONES DE DISEÑO
+PRINCIPIOS DE BUENAS PRACTICAS
+
+COMO SE DEFINE EL CONSTRUCTOR DE UNA CLASE?
+ES UN METODO QUE NO TIENE RETORNO Y QUE SE LLAME IGUAL A LA CLASE
+
+QUE SON MODIFICADORES DE ACCESO Y COMO FUNCIONA? MENCIONA 2
+
+NOS PERMITEN ESPECIFICAR EL ALCANCE DE LAS CLASES (METODOS, PROPIEDAS)
+
+PUBLIC PUEDE SER ACCEDIDO POR DENTRO Y FUERA DEL CONTEXTO
+
+PRIVATE: SOLO PUEDE SER ACCEDIDO DENTRO DEL CONTEXTO
+
+ES POSIBLE HEREDAR DE MULTIPLES CLASES?
+SOLO SE PUEDE HEREDAR UNA SOLA VEZ
+
+ES POSIBLE HEREDAR MULTIPLES INTERFACES?
+SI ES POSIBLE, ES BUENA PRACTICA
+
+MENCIONA 2 BUENAS PRACTICAS PARA C# PARA ESCRIBIR
+1. NOMBRAMIENTO ENTENDIBLE CLAROS
+2. EVITAR MUCHOS PARAMETROS
+3. ASIGNAR UNICA RESPOSIBILIDAD A CADA METODO
+
+QUE ES EL CLR?
+COMMON LENGUAGE RUNTIME
+
+QUE ES EL GARBAGE COLLECTOR?
+ES UN COMPONENTE DEL CLR PARA ADMINISTRAR LA MEMORIA
+AUTOMATICAMENTE
+
+LIBERA MEMORIA DE LOS COMPONENTES
+
+QUE ES UN METODO VIRTUAL ES C#?
+
+SIGNIFICA QUE PUEDE SOBREESCRIBIRSE
+QUE PERMITE POLIMORFISMO
+
+QUE ES LINQ?
+
+CONJUNTO DE EXTENSIONES PARA MANIPULAR DATOS
+WHERE JOIN SELECT ORDER BY EXTENSIONES
+
+QUE ES ENCAPSULAMIENTO?
+El encapsulamiento en C#, como en otros lenguajes orientados a objetos, nos permite proteger o crear límites de acceso a las variables y métodos de una clase, controlando con ello el comportamiento fuera y dentro de la misma clase. 
+
+ABSTRACCION?
+consiste en aislar un elemento de su contexto o al resto de los elementos, en progrmaacion oop se refiere mas a que hace a como lo hace.
+
+Polimorfismo?? Es la capacidad  que tiene un objeto de presentar diferentes comportamientos al momento de realizar una accion, el polimorfismo se aplica el principio de herencia.
+
+
+Herencia: capacidad de crear nuevas abstracciones basadas en abstracciones existentes. herencia se basa a la reutilizacion de codigo
+
+
+clase abstracta: es una clase que no puede ser instanciada solamente definimos los metodos, igual pueden tener implementacion en ella y sirven para crear otras clases, en estas pueden tener diferentes modificadores de acceso.
+
+
+clase estatica: para utilizar algun metodo repetidamente
+
+--------------------------------------------------------------------------------------
+NET 6..
+ENTITY FRAMEWORK ES UNA ORM
+
+DTOS Y AUTOMAPPER
+
+METODOS PETIKION HTTP POST Y GET 
+APP SETINGG
+IDENTITY: es un sistema de identidad que permite llevar el control de usuarios, roles y contraseñas
+SWAGGER
+TOKEN:  es un estándar (RFC 7519) que define una forma segura y compacta de transmitir información entre dos entidades en forma de un objeto JSON.
+AUTHORIZE
+CORS : un servidor puede permitir explícitamente algunas peticiones de otros dominios (cross-origin) y, al mismo tiempo, rechazar otras
+
+
+¿Cuál es la diferencia entre API y API REST (RESTful)
+Una API ( acrónimo que significa **Interfaz de Programación de Aplicaciones -Application Programming Interface) es una interfaz que permite que diferentes programas de ordenador se comuniquen entre sí, mientras que una API REST es un tipo de API que sigue un conjunto de reglas y estándares que la hacen más fácil de usar y más compatible con otras aplicaciones.
+
+Qué es REST
+REST es un estilo de arquitectura de software enfocado en el intercambio de recursos y basado en HTTP. Le agrega una capa muy delgada de complejidad y abstracción a HTTP. Mientras que HTTP es transferencia de archivos, REST se basa en la transferencia de recursos.
+
+CLEAN ARQUITECTURE
+PRINCIPIOS SOLID
+MICROSERVICIOS
+DOCKER
+GITLAB
+CLOUD AZURE, AWS.
+

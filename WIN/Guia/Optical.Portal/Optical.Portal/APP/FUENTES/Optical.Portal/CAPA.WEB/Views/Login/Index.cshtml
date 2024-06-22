@@ -1,0 +1,326 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from ableproadmin.com/light/vertical/login1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Jun 2017 17:38:12 GMT -->
+<head>
+    <title>Inicio de Sesión</title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Optical">
+    <meta name="keywords"
+          content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="Optical">
+
+    <!-- Favicon icon -->
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon" sizes="32x32">
+
+    <!-- Ico Fonts -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/icon/icofont/icofont.css">
+
+    <!-- Ico Fontawesome -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/icon/fontawesome/css/all.css">
+
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/booststrap-framework/css/bootstrap.min.css">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/animation/css/animate.css">
+
+    <!-- Notification -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/pnotify/pnotify.custom.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/pnotify/jquery.pnotify.default.css">
+
+    <!-- Template css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/menu.css">
+
+    <!-- Responsive.css-->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/responsive.css">
+
+    <!-- Bootstrap Date-Picker css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-datepicker/css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-datepicker/css/daterangepicker.css" />
+
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-select/css/bootstrap-select.css" />
+
+    <!-- Data Table Css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/responsive.bootstrap4.min.css">
+
+    <!-- Waves -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/waves/css/waves.min.css" />
+
+    <!-- Fab buttom -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/jquery-fab/css/jquery-fab.css" />
+
+    <!-- Hover css -->
+    <link href="~/Content/assets/plugins/hover/css/hover.css" rel="stylesheet" type="text/css">
+
+    <!-- Text-Security -->
+    <link href="~/Content/assets/plugins/text-security/text-security.css" rel="stylesheet" type="text/css">
+
+    <!--Furaqui-->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/furaqui/css/furaqui-index.css?@ViewBag.VersionSistema">
+
+    <!-- Modal Animation -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/modal/css/component.css" />
+
+    <!-- Css Generico-->
+    <link rel="stylesheet" type="text/css" href="~/Content/sistema/css/shared/_layout.css?@ViewBag.VersionSistema">
+
+    <!-- Css propio -->
+    <link rel="stylesheet" type="text/css" href="~/Content/sistema/css/login/index.css?@ViewBag.VersionSistema">
+</head>
+<body>
+    <section class="login p-fixed d-flex text-center">
+        <div class="row login-justify-content-md-start">
+            <div class="col-lg-4 col-12" style="padding-right: 0;">
+                <div class="login-card card-block">
+                    <form id="formIngreso" class="md-float-material">
+                        <div class="row p-t-10" id="form-content">
+                            <div class="col-lg-6 col-6 text-left">
+                                <img class="img-fluid img-login" id="login-logo-empresa" src="">
+                            </div>
+                            <div class="col-lg-6 col-6 text-right p-t-20">
+                                <i class="fas fa-question-circle login-ico-quest"></i>
+                            </div>
+                            <div class="col-12 p-t-10 p-b-10">
+                                <div class="text-center login-title">
+                                    Inicia sesión con tu cuenta
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control text-box single-line" autocomplete="off" data-placeholder="" id="NombreUsuario" name="NombreUsuario" />
+                                            <label class="text-left">Usuario</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group form-group-sm">
+                                    <div class="input-group input-group-sm">
+                                        <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control password text-box single-line" autocomplete="off" data-placeholder="" id="Contrasena" name="Contrasena" />
+                                            <i class="fas fa-eye-slash ico-fa ico-password" onclick="Login.Configuration.ShowPassword()"></i>
+                                            <i class="far fa-arrow-alt-circle-up ico-fa ico-mayus" data-toggle="tooltip" title="Mayúsculas activadas"></i>
+                                            <label class="text-left">Contraseña</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 div-ingresar text-center">
+                                <button type="button" id="btn-ingresar" class="btn btn-md btn-ico btn-ingresar-disabled waves-effect text-center" disabled><i class="fas fa-sign-in-alt"></i></button>
+                            </div>
+                            <div class="col-10 text-left div-no-ini-sesion p-t-25">
+                                <a href="#" class="a-no-ini-sesion md-trigger" id="a-no-ini-sesion" data-modal="modal-8">¿NO PUEDES INICIAR SESIÓN?</a>
+                            </div>
+                            <div class="col-2 text-right div-version-sistema p-t-25">
+                                <label class="label-version-sistema">V1.0.2020</label>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </form>
+                    <!-- end of form -->
+                </div>
+                <!-- end of login-card -->
+            </div>
+            <div class="col-lg-8 col-12 hide-panel-rigth" style="padding-left:1px;">
+                @*<div class="img-bg"></div>*@
+                <img src="" class="img-fluid img-inicio" id="img-inicio" alt="Responsive image" style="opacity: 0.7;">
+                <div class="card-login-info">
+                    <div class="row">
+                        <div class="col-lg-1 login-info">
+                            <div class="contenido">
+                                <div class="texto"><i class="fas fa-exclamation ico-login-info"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-11"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of col-sm-12 -->
+        </div>
+        <!-- end of row -->
+    </section>
+    <div class="md-modal md-effect-8" id="modal-8">
+        <div class="md-content">
+            <h3>Solicitar Ayuda</h3>
+            <form id="Solicitud" class="p-40">
+                <div class="row" id="body-modal">
+                    <div class="col-sm-6">
+                        <div class="md-input-wrapper">
+                            <input type="text" class="md-form-control md-static" value="mesadeayuda@optical.pe" disabled="disabled" name="CorreoReceptor" id="CorreoReceptor" />
+                            <label>Para</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="md-input-wrapper">
+                            <input type="email" class="md-form-control md-static text-lowercase" placeholder="Ingrese su correo" name="CorreoRemitente" id="CorreoRemitente" />
+                            <label>De</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="md-group-add-on">
+                            <span class="md-add-on-file">
+                                <button class="btn btn-success waves-effect waves-light">Archivo</button>
+                            </span>
+                            <div class="md-input-file">
+                                <input type="file" class="" name="ArchivoAdjunto" id="ArchivoAdjunto" />
+                                <input type="text" class="md-form-control md-form-file">
+                                <label class="md-label-file">Subir Archivo</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="md-input-wrapper">
+                            <textarea class="md-form-control md-static text-uppercase" cols="2" rows="4" name="MensajeRemitente" id="MensajeRemitente"></textarea>
+                            <label>Mensaje </label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary waves-effect" id="solicitar-ayuda">Enviar</button>
+                    <button type="button" class="btn btn-primary waves-effect md-close" id="solicitar-ayuda2" style="display: none;">Enviar2</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="md-overlay"></div><!-- the overlay element -->
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+    <div class="ie-warning">
+        <h1>Warning!!</h1>
+        <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+        <div class="iew-container">
+            <ul class="iew-download">
+                <li>
+                    <a href="http://www.google.com/chrome/">
+                        <img src="~/Content/assets/images/browser/chrome.png" alt="Chrome">
+                        <div>Chrome</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/">
+                        <img src="~/Content/assets/images/browser/firefox.png" alt="Firefox">
+                        <div>Firefox</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.opera.com">
+                        <img src="~/Content/assets/images/browser/opera.png" alt="Opera">
+                        <div>Opera</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/safari/">
+                        <img src="~/Content/assets/images/browser/safari.png" alt="Safari">
+                        <div>Safari</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                        <img src="~/Content/assets/images/browser/ie.png" alt="">
+                        <div>IE (9 & above)</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>Sorry for the inconvenience!</p>
+    </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jqurey -->
+    <script src="~/Content/assets/plugins/jquery-framework/jquery.js"></script>
+    <script src="~/Content/assets/plugins/jquery-ui/js/jquery-ui.min.js"></script>
+
+    <!-- Pooper -->
+    <script src="~/Content/assets/plugins/popover/popper.js"></script>
+
+    <!-- Ico Fontawesome -->
+    <script src="~/Content/assets/plugins/icon/fontawesome/js/all.js"></script>
+
+    <!-- Required Framework -->
+    <script src="~/Content/assets/plugins/booststrap-framework/js/bootstrap.min.js"></script>
+
+    <!-- Jquery validation -->
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validate/jquery.validate.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validate/jquery.validate.unobtrusive.js"></script>
+
+    <!-- Jquery modernizr -->
+    <script type="text/javascript" src="~/Content/assets/plugins/modernizr/modernizr-2.8.3.js"></script>
+
+    <!-- notification -->
+    <script type="text/javascript" src="~/Content/assets/plugins/pnotify/pnotify.custom.min.js"></script>
+
+    <!-- Custom js -->
+    <script type="text/javascript" src="~/Content/assets/js/main.js"></script>
+    <script type="text/javascript" src="~/Content/assets/pages/elements.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/common-pages.js"></script>
+
+    <!-- Moments -->
+    <script src="~/Content/assets/plugins/moment-with-locales/moment-with-locales.min.js"></script>
+
+    <!-- Bootstrap Datepicker js -->
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/daterangepicker.js"></script>
+
+    <!-- Bootstrap select -->
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- data-table js -->
+    <script src="~/Content/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.buttons.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/jszip.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/pdfmake.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/vfs_fonts.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/buttons.print.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/buttons.html5.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.responsive.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/responsive.bootstrap4.min.js"></script>
+
+    <!-- Loading Overlay -->
+    <script src="~/Content/assets/plugins/loading-overlay/loadingoverlay.min.js"></script>
+
+    <!-- Waves -->
+    <script src="~/Content/assets/plugins/waves/js/waves.min.js"></script>
+
+    <!-- Fab buttom -->
+    <script src="~/Content/assets/plugins/jquery-fab/js/jquery-fab.js"></script>
+
+    <!--Furaqui-->
+    <script type="text/javascript" src="~/Content/assets/plugins/furaqui/js/furaqui-index.js?@ViewBag.VersionSistema"></script>
+
+    <!-- Modal Animation -->
+    <script src="~/Content/assets/plugins/modal/js/classie.js"></script>
+    <script src="~/Content/assets/plugins/modal/js/modalEffects.js"></script>
+
+    <!-- Js Propio -->
+    <script type="text/javascript">
+        var login = login || {};
+
+        login.nombreCarpetaSitio = @Html.Raw(Json.Encode(ViewBag.NombreCarpetaSitio));
+    </script>
+    <script type="text/javascript" src="~/Content/sistema/js/login/index.js?@ViewBag.VersionSistema"></script>
+</body>
+</html>

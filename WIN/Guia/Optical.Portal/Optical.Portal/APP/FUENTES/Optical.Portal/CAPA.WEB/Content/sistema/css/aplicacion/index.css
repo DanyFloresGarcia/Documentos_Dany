@@ -1,0 +1,104 @@
+﻿.content-app {
+    margin-top: 50px;
+    background-color: #ecf0f5;
+}
+
+.aplicacion {
+    height: 184px;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px 1px #888888;
+}
+
+.aplicacion label {
+    color: white;
+}
+
+.aplicacion:hover, .aplicacion label:hover {
+    cursor: pointer;
+}
+
+.container-app-list {
+    padding: 0px 20px 30px 20px;
+}
+
+.url-ver-aplicacion {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.img-aplicacion {
+    padding-top: 5px;
+}
+
+.img-aplicacion-hover {
+    padding-top: 45px;
+    transition: all 0.5s ease;
+}
+
+.img-aplicacion-out {
+    padding-top: 5px;
+    transition: all 0.5s ease;
+}
+
+.ico-ver-aplicacion {
+    visibility: hidden;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    color: black;
+    background: #fff;
+    /* opacity: 0; */
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    right: -316px;
+    bottom: 85px;
+    padding: 30px;
+    border-radius: 100%;
+    -webkit-animation-duration: 700ms;
+    animation-duration: 700ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fa-arrow-right {
+    font-size: 15pt !important;
+}
+
+.visible-tran {
+    visibility: visible;
+    transition: all 0.1s ease;
+}
+
+.hidden-tran {
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+
+@media (max-width: 768px) {
+    .container-app-list {
+        padding: 50px 20px 30px 20px !important;
+    }
+}
+
+@media (max-width: 725px) {
+    .text-det-aplicacion {
+        font-size: 13pt !important;
+    }
+}
+
+@media (max-width: 1140px) {
+    .text-det-aplicacion {
+        font-size: 1.5rem;
+    }
+}

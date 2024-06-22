@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="es-pe">
+
+<!-- Mirrored from ableproadmin.com/light/vertical/login1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Jun 2017 17:38:12 GMT -->
+<head>
+    <title></title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Optical">
+    <meta name="keywords" content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="Sosides">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon" sizes="32x32">
+
+    <!-- Ico Fonts-->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/icon/icofont/icofont.css">
+
+    <!-- Ico Fontawesome -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/icon/fontawesome/css/all.css">
+
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/booststrap-framework/css/bootstrap.min.css">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/animation/css/style.css">
+
+    <!-- Notification -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/pnotify/pnotify.custom.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/pnotify/jquery.pnotify.default.css">
+
+    <!-- Template css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/menu.css">
+
+    <!-- Responsive.css-->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/responsive.css">
+
+    <!-- Bootstrap Date-Picker css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-datepicker/css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-datepicker/css/daterangepicker.css" />
+
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/bootstrap-select/css/bootstrap-select.css" />
+
+    <!-- Data Table Css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/data-table/css/responsive.bootstrap4.min.css">
+
+    <!-- Waves -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/waves/css/waves.min.css" />
+
+    <!-- Fab buttom -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/jquery-fab/css/jquery-fab.css" />
+
+    <!-- Hover css -->
+    <link href="~/Content/assets/plugins/hover/css/hover.css" rel="stylesheet" type="text/css">
+
+    <!--Furaqui-->
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/furaqui/css/furaqui-index.css?@ViewBag.VersionSistema">
+
+    <!-- Css Generico-->
+    <link rel="stylesheet" type="text/css" href="~/Content/sistema/css/shared/_layout.css?@ViewBag.VersionSistema">
+
+    <!-- Estilos de las paginas -->
+    @RenderSection("css", required: false)
+</head>
+<body class="sidebar-mini fixed">
+    <div class="loader-bg">
+        <div class="loader-bar">
+        </div>
+    </div>
+    <div class="wrapper">
+        <!-- Cabecera de las paginas -->
+        @Html.Partial("~/Views/Shared/_Header.cshtml")
+        <!-- Sidebar chat start -->
+        <div class="content-app" id="content">
+            <div class="container-fluid">
+                <!--Contenido de la página-->
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+    <div class="ie-warning">
+        <h1>Warning!!</h1>
+        <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+        <div class="iew-container">
+            <ul class="iew-download">
+                <li>
+                    <a href="http://www.google.com/chrome/">
+                        <img src="~/Content/assets/images/browser/chrome.png" alt="Chrome">
+                        <div>Chrome</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/">
+                        <img src="~/Content/assets/images/browser/firefox.png" alt="Firefox">
+                        <div>Firefox</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.opera.com">
+                        <img src="~/Content/assets/images/browser/opera.png" alt="Opera">
+                        <div>Opera</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/safari/">
+                        <img src="~/Content/assets/images/browser/safari.png" alt="Safari">
+                        <div>Safari</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                        <img src="~/Content/assets/images/browser/ie.png" alt="">
+                        <div>IE (9 & above)</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>Sorry for the inconvenience!</p>
+    </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script src="~/Content/assets/plugins/jquery-framework/jquery.js"></script>
+    <script src="~/Content/assets/plugins/jquery-ui/js/jquery-ui.min.js"></script>
+
+    <!-- Pooper -->
+    <script src="~/Content/assets/plugins/popover/popper.js"></script>
+
+    <!-- Ico Fontawesome -->
+    <script src="~/Content/assets/plugins/icon/fontawesome/js/all.js"></script>
+
+    <!-- Required Framework -->
+    <script src="~/Content/assets/plugins/booststrap-framework/js/bootstrap.min.js"></script>
+
+    <!-- Jquery validation -->
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validate/jquery.validate.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validate/jquery.validate.unobtrusive.js"></script>
+
+    <!-- Jquery modernizr -->
+    <script type="text/javascript" src="~/Content/assets/plugins/modernizr/modernizr-2.8.3.js"></script>
+
+    <!-- notification -->
+    <script type="text/javascript" src="~/Content/assets/plugins/pnotify/pnotify.custom.min.js"></script>
+
+    <!-- Custom js -->
+    <script type="text/javascript" src="~/Content/assets/js/main.js"></script>
+    <script type="text/javascript" src="~/Content/assets/pages/elements.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/common-pages.js"></script>
+
+    <!-- Moments -->
+    <script src="~/Content/assets/plugins/moment-with-locales/moment-with-locales.min.js"></script>
+
+    <!-- Bootstrap Datepicker js -->
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-datepicker/js/daterangepicker.js"></script>
+
+    <!-- Bootstrap select -->
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- data-table js -->
+    <script src="~/Content/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.buttons.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/jszip.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/pdfmake.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/vfs_fonts.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/buttons.print.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/buttons.html5.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/dataTables.responsive.min.js"></script>
+    <script src="~/Content/assets/plugins/data-table/js/responsive.bootstrap4.min.js"></script>
+
+    <!-- Loading Overlay -->
+    <script src="~/Content/assets/plugins/loading-overlay/loadingoverlay.min.js"></script>
+
+    <!-- Waves -->
+    <script src="~/Content/assets/plugins/waves/js/waves.min.js"></script>
+
+    <!-- Fab buttom -->
+    <script src="~/Content/assets/plugins/jquery-fab/js/jquery-fab.js"></script>
+
+    <!--Furaqui-->
+    <script type="text/javascript" src="~/Content/assets/plugins/furaqui/js/furaqui-index.js?@ViewBag.VersionSistema"></script>
+
+    <!--Layout Js-->
+    <script type="text/javascript" src="~/Content/sistema/js/shared/_layout.js?@ViewBag.VersionSistema"></script>
+
+    <!-- Javascripts de las paginas -->
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,46 @@
+.ui-pnotify{
+    text-align: center;
+    font-size: 12pt;
+}
+
+.ui-pnotify-title
+{
+    padding-left:25px;
+}
+
+.ui-pnotify.stack-bottomcenter {
+    bottom: calc(100% - 95%);
+    left: calc(100% - 50% - 150px);
+    top: auto;
+    right: auto;
+}
+
+.ui-pnotify.stack_topright {
+    bottom: auto;
+    right: auto;
+}
+
+.ui-pnotify.stack_topleft {
+    bottom: auto;
+    left: auto;
+}
+
+.ui-pnotify.stack_topcenter {
+    bottom: auto;
+    left: calc(100% - 50% - 150px);
+}
+
+.ui-pnotify.stack_bottomright {
+    top: auto;
+    right: auto;
+}
+
+.ui-pnotify.stack_bottomleft {
+    top: auto;
+    left: auto;
+}
+
+.ui-pnotify.stack_bottomcenter {
+    top: auto;
+    right: auto;
+}

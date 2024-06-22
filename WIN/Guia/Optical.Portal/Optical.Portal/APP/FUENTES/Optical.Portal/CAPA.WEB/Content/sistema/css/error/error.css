@@ -1,0 +1,46 @@
+﻿.fixed .content-wrapper {
+    margin-top: 20px;
+}
+
+@media only screen and (max-height: 433px) {
+    .error-500, .error-503, .error-404, .error-400, .error-403, .login, .error-401, .errorHtml {
+        position: unset;
+    }
+}
+
+.error-500, .error-503, .error-404, .error-400, .error-403, .login, .error-401, .errorHtml {
+    position: unset !important;
+}
+
+.error-401, .errorHtml {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    background-color: #448fd0;
+}
+
+.error-401 h1, .errorHtml h1 {
+    text-shadow: 6px 6px 7px rgba(0, 0, 0, 0.32);
+    padding: 70px 0;
+    color: #fff;
+    font-size: 150px;
+    margin-bottom: 40px;
+    background: url("../../../assets/images/403@2x.png") no-repeat center;
+}
+
+.error-401 h5, .errorHtml h5 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.error-401 p, .errorHtml p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #fff;
+}

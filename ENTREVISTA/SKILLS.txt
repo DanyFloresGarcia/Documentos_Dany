@@ -1,0 +1,35 @@
+C# .Net 3, 5, 6
+Web API Rest C#
+N Capas, Repository
+React
+JavaScript, Json, Ajax
+SQL Server, My SQL,
+PostgreSQL
+Jquery, Jquery
+Validation
+Blazor c#, Partial View
+TFS
+Despliegue en IIS,
+Azure DevOps, Docker
+y Kubernetes
+Principios Solid,
+Inyección de
+dependencias, PPO
+HTML 5, Css,
+Bootstrap, Material
+Design
+Datatable, Full
+Calendar,
+Datetimepicker
+
+
+Visual Studio Code
+Postman
+Java Spring Tool Suite
+Mongo DB
+PHP
+C# Entity Framework,
+AutoMapper, Dapper
+ORM
+Confluence
+Node-red

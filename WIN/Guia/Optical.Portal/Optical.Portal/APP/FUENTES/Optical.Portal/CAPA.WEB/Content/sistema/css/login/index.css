@@ -1,0 +1,170 @@
+﻿.solicitar-ayuda2{
+    display: none;
+}
+
+.login {
+    background-color: transparent;
+}
+
+.md-input-wrapper .md-line:after, .md-form-control:focus ~ .md-line:before, .md-input-wrapper .md-line:before {
+    background: #000000;
+}
+
+.md-form-control:focus ~ .md-line:before, .md-form-control:focus ~ .md-line:after {
+    width: 100%;
+    background: #000000;
+}
+
+.ico-password {
+    top: 25px;
+    right: 0px;
+    position: absolute;
+}
+
+.ico-mayus {
+    top: 25px;
+    right: 25px;
+    position: absolute;
+}
+
+.fa-eye-slash:hover {
+    color: black;
+}
+
+.fa-eye:hover {
+    color: black;
+}
+
+.login-justify-content-md-start {
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    height: 100%;
+}
+
+.login-ico-quest {
+    color: #9E9E9E;
+}
+
+.login-card {
+    position: relative;
+    min-height: 100%;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    left: auto;
+    float: left;
+}
+
+.label-recordar {
+    color: #818181;
+    font-size: 10pt !important; 
+}
+
+.login-title {
+    padding: 20px 20px 30px 20px;
+    font-size: 19pt;
+    font-weight: bold;
+}
+
+.img-bg {
+    height: 100% !important;
+    background-size: cover !important;
+}
+
+/*#endregion*/
+.img-login {
+    width: 70%;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #ff9f43;
+    border-color: #d68335;
+}
+
+.checkbox-color label::before {
+    left: 3px;
+}
+
+.input-group-sm > .custom-select, .input-group-sm > .form-control:not(textarea) {
+    height: calc(1.5em + .5rem + 1px);
+}
+
+.login-card input  {
+    font-weight: bold;
+}
+
+.a-crear-cuenta, .a-no-ini-sesion {
+    font-size: 8pt;
+    color: gray;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.a-crear-cuenta:hover, .a-no-ini-sesion:hover {
+    color: #000000;
+}
+
+.label-version-sistema {
+    font-size: 9pt;
+    color: #9E9E9E;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.label-version-sistema:hover {
+    color: gray;
+}
+
+.card-login-info {
+    padding: 25px 10px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+/**/
+.login-info .contenido {
+    border-radius: 4px;
+    background-color: rgb(60, 221, 185);
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
+}
+
+.login-info .contenido .texto {
+    border-radius: 4px;
+    font-family: Verdana;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    -ms-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+.ico-login-info{
+    font-size: 13pt;
+}
+
+@media (max-width: 768px) {
+    .hide-panel-rigth {
+        display: unset;
+    }
+}
+
+@media (max-width: 1140px) {
+    .hide-panel-rigth {
+        display: none;
+    }
+}
